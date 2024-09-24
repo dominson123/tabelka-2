@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.yellow {
+    background-color: lightyellow;
+}
+
+.orange {
+    background-color: lightsalmon;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
